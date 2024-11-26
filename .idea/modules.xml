@@ -2,24 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/day01-code/day01-code.iml" filepath="$PROJECT_DIR$/day01-code/day01-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02-code/day02-code.iml" filepath="$PROJECT_DIR$/day02-code/day02-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03-code/day03-code.iml" filepath="$PROJECT_DIR$/day03-code/day03-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day04-code/day04-code.iml" filepath="$PROJECT_DIR$/day04-code/day04-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day05-code/day05-code.iml" filepath="$PROJECT_DIR$/day05-code/day05-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day07-code/day07-code.iml" filepath="$PROJECT_DIR$/day07-code/day07-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day08-code/day08-code.iml" filepath="$PROJECT_DIR$/day08-code/day08-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day09-code/day09-code.iml" filepath="$PROJECT_DIR$/day09-code/day09-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day11-code/day11-code.iml" filepath="$PROJECT_DIR$/day11-code/day11-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day12-code/day12-code.iml" filepath="$PROJECT_DIR$/day12-code/day12-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day13-code/day13-code.iml" filepath="$PROJECT_DIR$/day13-code/day13-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day15-code/day15-code.iml" filepath="$PROJECT_DIR$/day15-code/day15-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day16-code/day16-code.iml" filepath="$PROJECT_DIR$/day16-code/day16-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day17-code/day17-code.iml" filepath="$PROJECT_DIR$/day17-code/day17-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day19-code/day19-code.iml" filepath="$PROJECT_DIR$/day19-code/day19-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day20-code/day20-code.iml" filepath="$PROJECT_DIR$/day20-code/day20-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day22-code/day22-code.iml" filepath="$PROJECT_DIR$/day22-code/day22-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day23-code/day23-code.iml" filepath="$PROJECT_DIR$/day23-code/day23-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01-HelloWorld/day01-HelloWorld.iml" filepath="$PROJECT_DIR$/day01-HelloWorld/day01-HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-DataType/day02-DataType.iml" filepath="$PROJECT_DIR$/day02-DataType/day02-DataType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-Method/day03-Method.iml" filepath="$PROJECT_DIR$/day03-Method/day03-Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-if-switch-loop/day04-if-switch-loop.iml" filepath="$PROJECT_DIR$/day04-if-switch-loop/day04-if-switch-loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05-array/day05-array.iml" filepath="$PROJECT_DIR$/day05-array/day05-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-class/day07-class.iml" filepath="$PROJECT_DIR$/day07-class/day07-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day08-String/day08-String.iml" filepath="$PROJECT_DIR$/day08-String/day08-String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09-ArrayList/day09-ArrayList.iml" filepath="$PROJECT_DIR$/day09-ArrayList/day09-ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11-extends/day11-extends.iml" filepath="$PROJECT_DIR$/day11-extends/day11-extends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12-interface/day12-interface.iml" filepath="$PROJECT_DIR$/day12-interface/day12-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13-lambda/day13-lambda.iml" filepath="$PROJECT_DIR$/day13-lambda/day13-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15-Integer-BigDecimal/day15-Integer-BigDecimal.iml" filepath="$PROJECT_DIR$/day15-Integer-BigDecimal/day15-Integer-BigDecimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16-Arrays/day16-Arrays.iml" filepath="$PROJECT_DIR$/day16-Arrays/day16-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17-Date/day17-Date.iml" filepath="$PROJECT_DIR$/day17-Date/day17-Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19-exception/day19-exception.iml" filepath="$PROJECT_DIR$/day19-exception/day19-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20-map/day20-map.iml" filepath="$PROJECT_DIR$/day20-map/day20-map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22-file/day22-file.iml" filepath="$PROJECT_DIR$/day22-file/day22-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23-stream/day23-stream.iml" filepath="$PROJECT_DIR$/day23-stream/day23-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day25-Thread/day25-Thread.iml" filepath="$PROJECT_DIR$/day25-Thread/day25-Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnJavaBase.iml" filepath="$PROJECT_DIR$/.idea/learnJavaBase.iml" />
     </modules>
   </component>
