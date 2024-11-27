@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/day22-file/day22-file.iml" filepath="$PROJECT_DIR$/day22-file/day22-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/day23-stream/day23-stream.iml" filepath="$PROJECT_DIR$/day23-stream/day23-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/day25-Thread/day25-Thread.iml" filepath="$PROJECT_DIR$/day25-Thread/day25-Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day27-net/day27-net.iml" filepath="$PROJECT_DIR$/day27-net/day27-net.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnJavaBase.iml" filepath="$PROJECT_DIR$/.idea/learnJavaBase.iml" />
     </modules>
   </component>
