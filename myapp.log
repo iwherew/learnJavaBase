@@ -1,0 +1,6 @@
+13:57:15.081 [main] TRACE log.LogTest - trace
+13:57:15.082 [main] DEBUG log.LogTest - debug
+13:57:15.082 [main] INFO  log.LogTest - info
+13:57:15.083 [main] WARN  log.LogTest - warn
+13:57:15.083 [main] ERROR log.LogTest - error
+13:57:15.083 [main] INFO  log.LogTest - 记录了一条日志

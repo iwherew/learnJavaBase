@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <!-- 定义控制台输出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 定义文件输出 -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>myapp.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <charset>utf-8</charset>
+        </encoder>
+        <!--
+           通过rollingPolicy设置日志滚动的策略，这是使用按照时间滚动
+           fileNamePattern属性设置滚动生成文件的格式,这里设置的精确到天，也就是按照天滚动，如果时间设置精确到秒，就按秒来滚动
+           maxHistory属性设定最大的文件数，比如按天滚动，这里设置了30天，在第31天日志生成的时候，第一天的日志就会被删掉
+        -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>/logback/log/test-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!--
+        配置根日志级别，控制全局的日志级别 (大于等于配置的日志级别的日志才会输出)
+        Level:用来设置打印级别，大小写无关:TRACE，DEBUG，INFO，WARN，ERROR，ALL和 OFF，默认debug
+        <root>可以包含零个或多个<appender-ref>元素，标识这个输出位置将会被本日志级别控制。
+    -->
+
+    <root level="ALL">
+        <!-- 附加输出目标（appender）的引用，可以有多个 -->
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>
