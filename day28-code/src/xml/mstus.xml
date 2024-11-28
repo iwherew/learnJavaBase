@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--引入单个xsd约束-->
+<!--
+    <students xmlns="http://www.amadeus.com">
+        <student>
+            <name>张三</name>
+            <age>23</age>
+        </student>
+    </students>
+-->
+
+<!--引入多个xsd约束-->
+<!--属性名冲突，冒号（:）起别名-->
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.amadeus.com"
+          xsi:schemaLocation="http://www.amadeus.com mstus.xsd"
+>
+    <student id="1">
+        <name>张三</name>
+        <age>23</age>
+    </student>
+    <student id="2">
+        <name>李四</name>
+        <age>24</age>
+    </student>
+</students>
